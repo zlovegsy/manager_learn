@@ -1,4 +1,9 @@
-# 对比
+# Block
+block是不是一个对象?是一个对象,苹果官方文档有说明(搜索working with block)
+
+可以联系C的函数指针，指针指向一片内存空间，即对象地址
+
+## 对比
 ### C语言函数指针
 	//函数
 	int func(int count)
@@ -27,19 +32,9 @@ C语言不允许匿名函数	，OC block是一个对象，Swift 闭包是引用�
 实际上它们都代表一片内存空间，只是不同于普通对象，这个对象本身可以运行一段代码，可以传参，可以有返回值，就类似函数。
 
 
-
-
-
-### Block
-block是不是一个对象?是一个对象,苹果官方文档有说明(搜索working with block)
-
-可以联系C的函数指针，指针指向一片内存空间，即对象地址
-
-只要block没有引用外部局部变量,不管是在MRC还是ARC中,block都放在全局区(静态区
-
 #### MRC:管理block
 
-Block引用外部局部变量,block放在栈里面.
+block放在栈里面.
 
 block只能使用copy,不能使用retain,使用retain,block还是在栈里面
 
@@ -47,6 +42,8 @@ block只能使用copy,不能使用retain,使用retain,block还是在栈里面
 
 #### ARC:管理block
 
-block引用外部局部变量,block放在堆里面
+block放在堆里面
 
-ARC随便使用修饰符
+
+# 协议
+
