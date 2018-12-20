@@ -37,6 +37,11 @@
   * [Git](工具使用/Git.md)
   * [Homebrew](工具使用/Homebrew.md)
   * [GitBook](工具使用/GitBook.md)
+  * [fastlane](工具使用/fastlane.md)
+  * [RN](工具使用/RN.md)
+  * [php](工具使用/php.md)
+  * [androidRN](工具使用/androidRN.md)
+  
 * [第七章，学习英语](7.md)
   * [英语听力](English/英语听力.md)
   * [日期年份](English/日期年份.md)
