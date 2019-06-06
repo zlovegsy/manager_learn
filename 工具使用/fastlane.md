@@ -1,9 +1,26 @@
 ###安装
 	xcode-select --install
 	sudo gem install -n /usr/local/bin fastlane
+	
+
+### 使用
+	fastlane init	
+	手动配置 fastlane文件
+	
+	
+*	Create a ./Gemfile in the root directory of your project with the content
+
+		source "https://rubygems.org"
+		gem "fastlane"
+		
+*	Run [sudo] bundle update and add both the ./Gemfile and the ./Gemfile.lock to version control
+*	Every time you run fastlane, use bundle exec fastlane [lane]
+*	On your CI, add [sudo] bundle install as your first build step
+*	To update fastlane, just run [sudo] bundle update fastlane
+
 
 ### 蒲公英 fir
-
+	
 
 
 
